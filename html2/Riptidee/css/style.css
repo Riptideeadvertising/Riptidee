@@ -40,6 +40,80 @@ Table of contents
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+.wrapper{
+  width:1170px;
+  margin: 0 auto;
+}
+.section-padding{
+  padding: 60px 0;
+}
+.testimonial-carousel{
+  margin: 5% auto 0;
+}
+.image-area{
+  width: 200px;
+  height: 200px;
+  display: block;
+  overflow: hidden;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+.image-are img{
+  width:100%;
+
+}
+.single-testi{
+  background:white;
+  padding: 10%;
+  text-align: center;
+  border-radius: 100px 0 100px;
+}
+.image-text h2{
+  text-transform: inherit;
+  margin: 20px 0 -20px;
+  color: black;
+  padding-bottom: 20px;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 25px;
+}
+.image-text h3{
+  font-size:18px;
+  color: black;
+}
+.image-text hr{
+  color: #ff5257;
+}
+.image-text p{
+  font-size:17px;
+  font-family: 'Montserrat',serif;
+}
+.owl-dot{
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #fff;
+  opacity:0.8;
+  border-radius: 50%;
+  margin: 50px 5px 0;
+}
+.owl-dots{
+  text-align: center;
+}
+  @media only screen and (min-width:768px) and (max-width:991px) {
+    .wrapper{
+      width: 100%
+    }
+  }
+  @media only screen and (max-width:767px){
+    .wrapper{
+      width: 100%
+    }
+  }
+  @media only screen and (min-width:480px) and (max-width:767px) {
+    .wrapper{
+      width: 100%
+    }
+  }
 
 /* ===================================
     Reset
