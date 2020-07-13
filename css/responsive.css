@@ -4808,7 +4808,65 @@
 @media screen and (max-height: 320px){
     nav.navbar.bootsnav.no-full .navbar-collapse{max-height: 240px;}
 }
-@media (max-width:  640px){
+@media only screen and (min-width:  360px) and (min-height:640px){
+  h6.response-five{
+      margin-left: -10px !important;
+      font-size: 20px !important;
+      width: 320px !important;
+  }
+  h6.response-three{
+      margin-left: -10px !important;
+      font-size: 20px !important;
+      width: 320px !important;
+  }
+  h6.response-two{
+      margin-left: -10px !important;
+      font-size: 20px !important;
+      width: 320px !important;
+  }
+  h6.response-one{
+      margin-left: -10px !important;
+      font-size: 20px !important;
+      width: 320px !important;
+  }
+  .height-100.d-flex.align-items-center{
+    margin-top: 100px;
+  }
+  .swiper-wrapper{
+    padding-left: 0px ;
+  }
+  h6.response-four{
+    margin-left: -10px;
+    font-size: 20px !important;
+    width: 320px !important;
+  }
+  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr.two{
+    top:550px !important;
+  }
+  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr.three{
+    top:530px !important;
+  }
+
+  .hover-title-box.padding-70px-lr.width-500px.md-width-100.md-padding-20px-lr.one{
+    top:480px !important;
+  }
+  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr.four{
+    top: 580px !important;
+  }
+  .hover-title-box.padding-55px-lr.width-300px.sm-width-100.sm-padding-20px-lr.five{
+    top:560px !important;
+  }
+  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr.six{
+    top:600px !important;
+  }
+  .col li{
+    font-size: 12px !important;
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 0px;
+  }
+}
+@media only screen and (min-width:  411px) and (min-height:731px){
   h6.response-five{
       margin-left: -10px !important;
       font-size: 20px !important;
@@ -4840,14 +4898,24 @@
     font-size: 20px !important;
     width: 320px !important;
   }
-  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr {
-    top:580px;
+  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr.two{
+    top:620px !important;
   }
-  .hover-title-box.padding-55px-lr.width-300px.sm-width-100.sm-padding-20px-lr {
-    top:570px;
+  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr.three{
+    top:540px !important;
   }
-  .hover-title-box.padding-70px-lr.width-500px.md-width-100.md-padding-20px-lr{
-    top:470px;
+
+  .hover-title-box.padding-70px-lr.width-500px.md-width-100.md-padding-20px-lr.one{
+    top:530px !important;
+  }
+  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr.four{
+    top: 650px !important;
+  }
+  .hover-title-box.padding-55px-lr.width-300px.sm-width-100.sm-padding-20px-lr.five{
+    top:650px !important;
+  }
+  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr.six{
+    top:680px !important;
   }
   .col li{
     font-size: 12px !important;
@@ -4856,56 +4924,9 @@
     padding-left: 0px;
   }
 }
-@media (max-width:  731px){
-  h6.response-five{
-      margin-left: -10px !important;
-      font-size: 20px !important;
-      width: 320px !important;
-  }
-  h6.response-three{
-      margin-left: -10px !important;
-      font-size: 20px !important;
-      width: 320px !important;
-  }
-  h6.response-two{
-      margin-left: -10px !important;
-      font-size: 20px !important;
-      width: 320px !important;
-  }
-  h6.response-one{
-      margin-left: -10px !important;
-      font-size: 20px !important;
-      width: 320px !important;
-  }
-  .height-100.d-flex.align-items-center{
-    margin-top: 100px;
-  }
-  .swiper-wrapper{
-    padding-left: 15px ;
-  }
-  h6.response-four{
-    margin-left: -10px;
-    font-size: 20px !important;
-    width: 320px !important;
-  }
-  .hover-title-box.padding-55px-lr.width-300px.md-width-100.md-padding-20px-lr {
-    top:630px;
-  }
-  .hover-title-box.padding-55px-lr.width-300px.sm-width-100.sm-padding-20px-lr {
-    top:640px;
-  }
-  .hover-title-box.padding-70px-lr.width-500px.md-width-100.md-padding-20px-lr{
-    top:550px;
-  }
 
-  .col li{
-    font-size: 12px !important;
-    width: 50%;
-    padding-right: 10px;
-    padding-left: 0px;
-  }
 
-}
+
 /* container */
 @media (min-width: 575px) { .container { max-width: 100%; } }
 @media (min-width: 768px) { .container { max-width: 750px; } }
